@@ -1,0 +1,39 @@
+import numpy as np
+# *****************Multiplication********************
+first_array = np.array([[2, 4], [3, 3]])
+
+
+mulTotal = 2*first_array
+print(mulTotal)
+
+
+# Output will be
+# [[4 8]
+# [6 6]]
+
+# *****************Addition********************
+first_array = np.array([[2, 4], [3, 3]])
+
+
+addTotal = 2+first_array
+print(addTotal)
+
+# Output will be
+# [[4 6]
+#  [5 5]]
+
+
+
+
+# *****************Subtraction********************
+first_array = np.array([[2, 4], [3, 3]])
+
+
+subTotal = 2-first_array
+print(subTotal)
+
+# Output will Be:
+#     [[0 - 2]
+#      [-1 - 1]]
+
+
